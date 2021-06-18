@@ -1,0 +1,34 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    #clock{
+        height: 70vw;
+        width: 70vw;
+        background: url(./clock.png) no-repeat;
+        background-size: 100%;
+        margin: auto;
+        position: relative;
+        .clock-hands{
+            position: absolute;
+            background: #000;
+            border-radius: 0.8rem;
+            width: 2.4%;
+            left: 49.2%;
+        }
+        &-hour{
+            height: 28%;
+            top: 22%;
+        }
+        &-minute{
+            height: 33%;
+            top: 17%;
+        }
+        &-second{
+            height: 38%;
+            top: 12%;
+        }
+    }
+}
