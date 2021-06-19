@@ -5,8 +5,8 @@
     height: 100vh;
     width: 100vw;
     #clock{
-        height: 70vw;
-        width: 70vw;
+        height: 40vw;
+        width: 40vw;
         background: url(./clock.png) no-repeat;
         background-size: 100%;
         margin: auto;
@@ -15,20 +15,23 @@
             position: absolute;
             background: #000;
             border-radius: 0.8rem;
-            width: 2.4%;
             left: 49.2%;
+            transform-origin: bottom;
         }
         &-hour{
             height: 28%;
             top: 22%;
+            width: 2.4%;
         }
         &-minute{
             height: 33%;
             top: 17%;
+            width: 1.8%;
         }
         &-second{
             height: 38%;
             top: 12%;
+            width: 1.2%;
         }
     }
 }
