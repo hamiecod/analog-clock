@@ -1,2 +1,5 @@
 .vscode
 *.css.map
+
+# Local Netlify folder
+.netlify

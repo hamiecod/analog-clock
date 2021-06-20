@@ -1,6 +1,9 @@
 # Introduction
 This repository holds the files for an analog clock built using HTML, CSS(SCSS) and Javascript ES6
 
+## Links
+- [Live Site URL](https://hargunclock.netlify.app)
+
 ## My procedure
 - Figured out 3 formulas(described [here](#maths-equations-used)) that would determine the theta of the three hands of the clock viz the hour, minute and second hand.
 - Added the clock png file via upload
